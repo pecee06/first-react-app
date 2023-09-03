@@ -1,0 +1,39 @@
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    padding: 1px 0;
+}
+
+.section-1, .section-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 1.8;
+}
+
+.section-1 div, .section-2 div{
+    padding: 1vw 2vw;
+}
+
+.section-1 .left{
+    background: linear-gradient(to left, white, #c2b3d1);
+}
+
+.section-1 .right{
+    background-image: url("https://img.freepik.com/free-vector/rocket-launcher-start-up_24908-78072.jpg?w=740&t=st=1693758341~exp=1693758941~hmac=29bd4e34ec8d45cd33207b8d3053bb2fae4d19bd37b373b5d8ad3b7db7cb92ee");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.section-2 .right{
+    background: linear-gradient(to right, white, #242424);
+}
+
+.section-2 .left{
+    background-image: url("https://img.freepik.com/free-vector/rocket-planet-draw_25030-38604.jpg?w=740&t=st=1693758928~exp=1693759528~hmac=c486d81869e31884cb0284c7c456120ffd8e5c1a1b5a1afc361093008874b26e");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
